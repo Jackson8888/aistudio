@@ -1,9 +1,9 @@
-#飞桨常规赛：中文场景识别-4月第2名方案
+# 飞桨常规赛：中文场景识别-4月第2名方案
 
-##项目描述
+## 项目描述
 代码主体用是是PaddleOCR的代码，基于此框架和里面的pre train模型以比赛数据进行finetune得到的结果
 
-##使用方式
+## 使用方式
 训练模型代码为：
 
 python3 tools/train.py -c configs/rec/rec_r34_vd_none_bilstm_ctc.yml
